@@ -1,5 +1,13 @@
 hello:
 	echo "this is my first make command"
+
+#Requirements File
+	
 install:
 	pip install --uprage pip &&\
 		pip install -r requirements.txt
+#Test File		
+
+test:
+	python -m pytest -vv test_adder.py
+    
