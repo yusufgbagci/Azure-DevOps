@@ -1,0 +1,9 @@
+source VENV/bin/activate  #for new virtual env
+
+
+make install #command for make file install
+
+touch .....(fileName)  #create file
+
+
+
